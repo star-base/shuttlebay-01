@@ -1,12 +1,11 @@
-# Documentation: https://roots.io/trellis/docs/remote-server-setup/
 wordpress_sites:
-  example.com:
+  spacestation:
     site_hosts:
       - staging.example.com
-    local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
+    local_path: ../spacestation # path targeting local Spacestation site directory (relative to Ansible root)
     repo: git@github.com:example/example.com.git # replace with your Git repo URL
     branch: master
-    repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
+    repo_subtree_path: spacestation # relative path to your Spacestation/WP directory in your repo
     multisite:
       enabled: false
       subdomains: false

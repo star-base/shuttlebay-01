@@ -5,7 +5,7 @@ vault_sudoer_passwords:
 
 # Variables to accompany `group_vars/production/wordpress_sites.yml`
 vault_wordpress_sites:
-  example.com:
+  spacestation:
     env:
       db_password: example_dbpassword
       # Generate your keys here: https://api.wordpress.org/secret-key/1.1/salt/
